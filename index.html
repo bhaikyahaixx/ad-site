@@ -2,15 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ad Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to My Ad Tips Site</title>
   <style>
     body {
       font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
       text-align: center;
-      margin: 50px;
     }
-
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+    }
+    h1 {
+      margin: 0;
+    }
+    .content {
+      padding: 20px;
+      margin-top: 20px;
+    }
+    a {
+      color: #333;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    footer {
+      margin-top: 20px;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+    }
     .ad-box {
       border: 2px dashed #888;
       padding: 20px;
@@ -24,13 +48,36 @@
   </style>
 </head>
 <body>
-  <h1>Welcome to My Ad Page</h1>
 
-  <div class="ad-box">
-    <!-- Replace this with your actual ad -->
-    <img src="https://via.placeholder.com/300x250.png?text=Your+Ad+Here" alt="Ad" />
+  <header>
+    <h1>Welcome to Ad Tips Central</h1>
+  </header>
+
+  <div class="content">
+    <p>Here, we provide simple tips on how to use ads effectively on your website. Whether you're just getting started or looking to optimize, we've got you covered.</p>
+
+    <div class="ad-box">
+      <!-- Example Placeholder for Google Ads -->
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+     crossorigin="anonymous"></script>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXX"
+           data-ad-slot="1234567890"
+           data-ad-format="auto"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    <p>Explore our site for more tips and tricks on maximizing ad revenue!</p>
+
+    <a href="about.html">About</a> | <a href="contact.html">Contact</a>
   </div>
 
-  <p>This is a simple website that shows an ad.</p>
+  <footer>
+    <p>&copy; 2025 Ad Tips Central</p>
+  </footer>
+
 </body>
 </html>
